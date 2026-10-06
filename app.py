@@ -36,7 +36,7 @@ model = load_brain_model()
 
 st.title("🧠 Brain Tumor MRI Detection")
 st.write(
-    "Upload an MRI brain image to get the predicted result."
+    "Upload MRI brain images to get the predicted result."
 
 )
 
