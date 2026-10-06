@@ -36,8 +36,8 @@ model = load_brain_model()
 
 st.title("🧠 Brain Tumor MRI Detection")
 st.write(
-    "Upload an MRI brain image and the trained VGG16 model "
-    "will predict the most likely class."
+    "Upload an MRI brain image to get the predicted result."
+
 )
 
 st.info(
