@@ -185,7 +185,13 @@ if uploaded_file is not None:
         f"MRI Probability: "
         f"{mri_confidence:.2f}%"
     )
-
+    cv2.ellipse(
+    image_array,
+    (x + w // 2, y + h // 2),
+    (w // 2, h // 2),
+    0, 0, 360,
+    (0, 255, 0), 2
+)
 
     # ======================================
     # STEP 2: REJECT NON-MRI
