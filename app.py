@@ -208,20 +208,8 @@ if uploaded_file is not None:
     # STEP 3: MRI ACCEPTED
     # ======================================
 
-    st.markdown(
-        """
-        <div style="
-            background-color: #163d2b;
-            color: #35d985;
-            border-radius: 9999px;
-            padding: 12px 16px;
-            width: 100%;
-            box-sizing: border-box;
-        ">
-            ✅ MRI Image Detected
-        </div>
-        """,
-        unsafe_allow_html=True
+    st.success(
+        "✅ MRI Image Detected"
     )
 
 
